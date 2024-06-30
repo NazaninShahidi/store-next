@@ -1,3 +1,5 @@
+import Footer from "./components/layout/Footer";
+import Header from "./components/layout/Header";
 import "./globals.css";
 
 export default function RootLayout({
@@ -7,7 +9,11 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body className="max-w-screen-xl mx-auto">
+        <Header />
+        {children}
+        <Footer />
+      </body>
     </html>
   );
 }
