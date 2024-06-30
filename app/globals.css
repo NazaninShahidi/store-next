@@ -4,4 +4,18 @@
 @tailwind components;
 @tailwind utilities;
 
+.swiper-pagination-bullet{
+background: #FFFFFF !important;
+opacity: 1 !important;
+
+}
+
+.swiper-pagination-bullet.swiper-pagination-bullet-active{
+
+width: 16px;
+height: 16px;
+border: 1px solid #FFFFFF;
+background: transparent !important;
+}
+
 
