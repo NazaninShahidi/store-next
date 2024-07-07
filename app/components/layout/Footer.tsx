@@ -5,7 +5,7 @@ import { FaFacebookF, FaLinkedinIn, FaTwitter } from "react-icons/fa";
 
 function Footer() {
   return (
-    <footer className=" flex flex-col py-6 border-t my-3 space-y-9 mb-9">
+    <footer className=" flex flex-col py-6 border-t my-3 space-y-9 mb-9 font-DM">
       <div className="flex justify-between ">
         {" "}
         <ul className=" flex space-x-6 text-[#707070] font-normal text-[16px] leading-7 my-3">

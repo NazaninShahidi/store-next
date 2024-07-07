@@ -51,8 +51,8 @@ function Slider() {
       }}
       loop={true}
       modules={[Pagination, Autoplay]}
-      onSlideChange={() => console.log("slide change")}
-      onSwiper={(swiper) => console.log(swiper)}
+      // onSlideChange={() => console.log("slide change")}
+      // onSwiper={(swiper) => console.log(swiper)}
     >
       {slidesData.map((slide, index) => (
         <SwiperSlide key={index}>

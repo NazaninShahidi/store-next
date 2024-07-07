@@ -1,9 +1,11 @@
 import Slider from "./components/hero-section/Slider";
+import Latest from "./components/latest/Latest";
 
 export default function Home() {
   return (
-    <div className=" h-lvh">
+    <div>
       <Slider />
+      <Latest />
     </div>
   );
 }
